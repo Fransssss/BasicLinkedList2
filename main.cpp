@@ -46,8 +46,8 @@ int main()
     Node* rdNode = new Node(userNum3);
 
     // link the lists
-    head->insertAfter(ndNode);
-    ndNode->insertAfter(rdNode);
+    head->insertAfter(ndNode);                           // head points to 2nd list
+    ndNode->insertAfter(rdNode);                         // 2nd list points to 3rd list
 
     // display value
     currObj = head;
