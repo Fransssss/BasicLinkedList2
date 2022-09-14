@@ -22,7 +22,7 @@ int main()
     double userNum2 = 0;
     double userNum3 = 0;
 
-    Node* head = new Node;          // default constructor called
+    Node* head = new Node;                               // default constructor called
     Node* currObj = nullptr;
 
     // user input number
@@ -40,7 +40,7 @@ int main()
     head = new Node(userNum1);
 
     //2nd and 3rd lists
-    Node* ndNode = new Node(userNum2);       // allocate new memory
+    Node* ndNode = new Node(userNum2);                    // allocate new memory
     Node* rdNode = new Node(userNum3);
 
     // link the lists
@@ -53,9 +53,9 @@ int main()
     while(currObj != nullptr)
     {
         currObj->print();
-        if(currObj->GetNext() != nullptr)        // if it's not the end of list
+        if(currObj->GetNext() != nullptr)                 // if it's not the end of list
         {
-            cout << ',';                         // data formatting purposes
+            cout << ',';                                  // data formatting purposes
         }
         currObj = currObj->GetNext();
     }
@@ -63,14 +63,3 @@ int main()
 
     return 0;
 }
-
-// next idea create array
-// user determines the size
-// initialize to default value
-// input value as many as the size
-// display value
-
-// in future
-// display value at specific index
-// input at first, middle, end
-// remove a list and shift lists
