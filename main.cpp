@@ -3,6 +3,8 @@
 // Practices make improvement - Have Fun !!!
 // :)
 
+// Inspiration = Zybook DS 1
+
 // ================
 // learn how basic linked list works
 // user input number for data in list
